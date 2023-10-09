@@ -9,7 +9,6 @@ service ProductService {
 }
 
 // CreateProduct
-1st RPC point
 message CreateProductRequest {
   string name = 1;
   string sku = 2;
@@ -24,7 +23,6 @@ message CreateProductResponse {
 }
 
 // FindOne
-2nd RPC point
 message FindOneData {
   int32 id = 1;
   string name = 2;
@@ -44,7 +42,6 @@ message FindOneResponse {
 }
 
 // DecreaseStock
-3rd RPC point
 message DecreaseStockRequest {
   int32 id = 1;
 }
